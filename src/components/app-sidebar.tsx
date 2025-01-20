@@ -1,4 +1,4 @@
-import React from "react"
+import React, { Dispatch, SetStateAction } from "react"
 import {  Home, Contact,User,Fingerprint } from "lucide-react"
 
 import {
@@ -37,10 +37,16 @@ const items = [
 ]
 
 export default function AppSidebar() {
+
+  // const changePage = (title: string) => (event: React.MouseEvent<HTMLAnchorElement>) => {
+  //   // event.preventDefault()
+  //   setPage(title)
+  // }
+
   return (
     <Sidebar>
       <SidebarContent>
-        <SidebarGroup>
+        <SidebarGroup >
           <SidebarGroupLabel>Cobuild.tech</SidebarGroupLabel>
           <SidebarGroupContent>
             <SidebarMenu>

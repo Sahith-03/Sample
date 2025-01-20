@@ -4,8 +4,8 @@ import React from "react"
 export default function Contact() {
   return (
     <>
-      <Navbar>
-        <div className="flex flex-col min-h-svh w-screen fixed items-center justify-center bg-gray-200 gap-2">
+      <Navbar Page="Contact">
+      <div className="flex -z-10 items-center justify-center p-6 md:p-10 bg-gray-200 w-full flex-col">
           <h1 className="text-6xl text-center">For further information</h1>
           <h1 className="text-5xl text-center"> Contact Us</h1>
         </div>

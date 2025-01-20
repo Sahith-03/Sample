@@ -4,8 +4,8 @@ import React from "react"
 export default function About() {
   return (
     <>
-      <Navbar>
-        <div className="flex min-h-svh w-screen fixed items-center justify-center bg-gray-200">
+      <Navbar Page="About">
+      <div className="flex -z-10 items-center justify-center p-6 md:p-10 bg-gray-200 w-full">
           <h1 className="text-6xl text-center">About</h1>
         </div>
       </Navbar>
